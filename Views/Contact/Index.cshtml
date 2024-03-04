@@ -1,0 +1,65 @@
+﻿<!--==================== CONTACT ME ====================-->
+@model Contact
+
+<section class="contact section" id="contact">
+    <h2 class="section__title">Contact me</h2>
+    <span class="section__subtitle">Get in touch</span>
+
+    <div class="contact__container container grid">
+        <div>
+            <div class="contact__information">
+                <i class="uil uil-phone-alt contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Call me</h3>
+                    <span class="contatc__subtitle">01789086587</span>
+                </div>
+            </div>
+
+            <div class="contact__information">
+                <i class="uil uil-envelope contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">E-mail</h3>
+                    <span class="contatc__subtitle">antokumar00@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="contact__information">
+                <i class="uil uil-map-marker contact__icon"></i>
+
+                <div>
+                    <h3 class="contact__title">Location</h3>
+                    <span class="contatc__subtitle">Khulna, Bangladesh</span>
+                </div>
+            </div>
+        </div>
+
+        <form method="post" action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+                <div class="contact__content">
+                    <label asp-for="Name" class="contact__label">Name</label>
+                    <input asp-for="Name" type="text" class="contact__input">
+                </div>
+
+                <div class="contact__content">
+                    <label asp-for="Email"  class="contact__label">E-mail</label>
+                    <input asp-for="Email" type="email" class="contact__input">
+                </div>
+            </div>
+
+            
+
+            <div class="contact__content">
+                <label asp-for="Email" class="contact__label">Description</label>
+                <textarea asp-for="Message" id="" cols="0" rows="7" class="contact__input"></textarea>
+            </div>
+
+            <div>
+                
+                <input type="submit" value="Send" class="contact__input">
+            </div>
+        </form>
+    </div>
+
+</section>

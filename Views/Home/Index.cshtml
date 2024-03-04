@@ -1,0 +1,50 @@
+﻿ <!--==================== HOME ====================-->
+<section class="home section" id="home">
+    <div class="home__container container grid">
+        <div class="home__content grid">
+            <div class="home__social">
+                <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                   target="_blank" class="home__social-icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </a>
+                <a href="https://twitter.com/home" target="_blank" class="home__social-icon">
+                    <i class="uil uil-twitter-alt"></i>
+                </a>
+                <a href="https://github.com/Anto-kumar" target="_blank" class="home__social-icon">
+                    <i class="uil uil-github-alt"></i>
+                </a>
+            </div>
+
+            <div class="home__img">
+                <img src="packages/images/home_image.jpg" alt="">
+
+
+            </div>
+
+            <div class="home__data">
+                <h1 class="home__title">Hi, I'am Anto Kumar Paul</h1>
+                <h3 class="home__subtitle">A CSE GRADUATE..</h3>
+                <p class="home__description">
+                    Now I am studing in Bsc Engineering at Khunla University of
+                    Engineering & Technology as a Computer Science and Engineering Student.
+                </p>
+                <a asp-controller="Contact" asp-action="Index" class="nav__link">
+                    Contact Me<i class="uil uil-message button__icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="home__scroll">
+            <a asp-controller="About" asp-action="Index" class="nav__link">
+                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                <span class="home__scroll-name">Scroll Down</span>
+                <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<footer style="background-color: Background; text-align: center; padding: 15px; position: absolute; bottom: 0; width: 20%;">
+    <partial name="_LoginPartial" />
+</footer>
